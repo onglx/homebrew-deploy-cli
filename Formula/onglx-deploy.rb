@@ -1,7 +1,9 @@
 class OnglxDeploy < Formula
   desc "Deploy AI APIs to AWS in 30 seconds with 85% cost savings"
-  homepage "https://docs.onglx.dev"
+  homepage "https://deploy.onglx.io/docs"
   version "0.1.39"
+
+  depends_on "opentofu"
 
   on_macos do
     if Hardware::CPU.arm?
