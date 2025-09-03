@@ -1,28 +1,28 @@
 class OnglxDeploy < Formula
   desc "Deploy AI APIs to cloud providers with 85% cost savings"
   homepage "https://deploy.onglx.io"
-  version "0.1.41"
+  version "0.1.42"
   license "MIT"
 
   depends_on "opentofu"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/onglx/homebrew-deploy-cli/releases/download/v0.1.41/onglx-deploy_Darwin_arm64.tar.gz"
-      sha256 "d047594e069d6ab935d0fac538a572d866ff3a7455ec99e36b0a6bec56f75df7"
+      url "https://github.com/onglx/homebrew-deploy-cli/releases/download/v0.1.42/onglx-deploy_Darwin_arm64.tar.gz"
+      sha256 "738c6686bf08bb78f3ce3c78b82ff2a6f82678fbd40cf4ec0f244c469c450a9d"
     else
-      url "https://github.com/onglx/homebrew-deploy-cli/releases/download/v0.1.41/onglx-deploy_Darwin_amd64.tar.gz"
-      sha256 "5658b9702248c3e98beb874f42fcce6574a661538388fbf6ef64eb6d754def5f"
+      url "https://github.com/onglx/homebrew-deploy-cli/releases/download/v0.1.42/onglx-deploy_Darwin_amd64.tar.gz"
+      sha256 "b0378fa31201864a53c66bb070c4fcd6c9876f5f8690c5970d8b94a7f2a36e29"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/onglx/homebrew-deploy-cli/releases/download/v0.1.41/onglx-deploy_Linux_arm64.tar.gz"
-      sha256 "b9890c6d3d282dae9ec2c1689a7f83aca5e21bb8f1030ac2fb045700b0eb397a"
+      url "https://github.com/onglx/homebrew-deploy-cli/releases/download/v0.1.42/onglx-deploy_Linux_arm64.tar.gz"
+      sha256 "962f4c2f8a0610b8e337c9bb06983d4c2315c06cdcf54cb63fcd82f041c819d6"
     else
-      url "https://github.com/onglx/homebrew-deploy-cli/releases/download/v0.1.41/onglx-deploy_Linux_amd64.tar.gz"
-      sha256 "288452f1939c018cba53455a607ff10150e89289ab244abd9301e79e8402c854"
+      url "https://github.com/onglx/homebrew-deploy-cli/releases/download/v0.1.42/onglx-deploy_Linux_amd64.tar.gz"
+      sha256 "3dbb5739d0a0a83b61caafce2fb74da9f1081c79d2b2e6485ff8201baf05a559"
     end
   end
 
