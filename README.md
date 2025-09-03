@@ -25,8 +25,8 @@ onglx-deploy deploy
 
 ## Documentation
 
-Full documentation is available at [docs.onglx.dev](https://docs.onglx.dev).
+Full documentation is available at [deploy.onglx.io/docs](https://deploy.onglx.io/docs).
 
-## Issues
+## Support
 
-Report issues at [github.com/onglx/deploy/issues](https://github.com/onglx/deploy/issues).
+For support, email us at deploy-cli@onglx.com.
